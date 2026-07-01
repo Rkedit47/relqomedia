@@ -141,3 +141,76 @@ body {
     letter-spacing: .05dvw;
     border: none;
 }
+
+/* Disclosure/////////////////////////////////////////////////////// */
+.disclosure {
+
+    padding-top: 10dvw;
+}
+.disclosure-head {
+    padding-left: 5dvw;
+    padding-right: 5dvw;
+    padding-top: 10dvw;
+    padding-bottom: 10dvw;
+    background-color: #f0f1f3;
+}
+.disclosure-text{
+    font-family: "Inter Tight", sans-serif;
+    color: black;
+    opacity: 0.6;
+    font-size: 0.95dvw;
+    font-weight: 510;
+    letter-spacing: 0.2dvw;
+    line-height: 1dvw;
+}
+.disclosure-heading {
+    font-family: "Playfair", serif;
+    color: #171C26;
+    font-size: 4.6dvw;
+    font-weight: 500;
+    letter-spacing: -0.35dvw;
+    line-height: 3.3dvw;
+}
+
+.disclosure-body {
+    padding-left: 5dvw;
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(83, 82, 82);
+    font-size: 1.2dvw;
+    font-weight: 450;
+    letter-spacing: .05dvw;
+    line-height: 1.4dvw;
+    padding-right: 38dvw;
+    display: flex;
+    flex-direction: column;
+    gap: .3dvw;
+}
+
+
+/* //////////////////////DISCLOSURE QUESTION ////////////////////////// */
+
+.disclosure-question {
+    padding-top: 4dvw;
+    padding-bottom: 4dvw;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    background-color: #f0f1f3;
+}
+
+.disclosure-question-heading {
+    font-family: "Playfair", serif;
+    font-size: 2.7dvw;
+    font-weight: 500;
+    letter-spacing: -0.2dvw;
+    line-height: 2.4dvw;
+}
+.disclosure-question-button{
+    padding: 1.4dvw 4dvw;
+    background-color: #12294b;
+    color:white;
+    font-weight: 550;
+    font-size: .9dvw;
+    letter-spacing: .05dvw;
+    border: none;
+}
