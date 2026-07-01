@@ -1,0 +1,143 @@
+
+
+body {
+    font-family: "Inter Tight", sans-serif;
+    font-family: "Playfair", serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.service-header {
+    padding-left: 5dvw;
+    padding-right: 5dvw;
+    padding-top: 10dvw;
+    padding-bottom: 10dvw;
+    background-color: #f0f1f3;
+    
+}
+.service-heading {
+    font-family: "Inter Tight", sans-serif;
+    color: black;
+    opacity: 0.6;
+    font-size: 0.95dvw;
+    font-weight: 510;
+    letter-spacing: 0.1dvw;
+    line-height: 1dvw;
+}
+.service-main-heading {
+    font-family: "Playfair", serif;
+    color: #171C26;
+    font-size: 4.3dvw;
+    font-weight: 500;
+    letter-spacing: -.3dvw;
+    line-height: 2dvw;
+}
+.service-description {
+    font-family: "Inter Tight", sans-serif;
+    color: black;
+    opacity: 0.6;
+    font-size: 1.6dvw;
+    font-weight: 400;
+    letter-spacing: -0.001dvw;
+    line-height: 2dvw;
+    padding-right: 30dvw;
+}
+
+
+.service-information {
+    display: flex;
+    flex-direction: column;
+    gap: 10dvw;
+    padding-bottom: 10dvw;
+}
+.service-information-number {
+    width: 50dvw;
+    display: flex;
+    flex-direction: row;
+    gap: 5dvw;
+}
+.service-number {
+    font-family: "Inter Tight", sans-serif;
+    color: #171C26;
+    opacity: 0.6;
+    font-size: 1dvw;
+    font-weight: 500;
+    line-height: 3dvw;
+}
+.service-title {
+    font-family: "Playfair", serif;
+    color: #171C26;
+    font-size: 2.6dvw;
+    font-weight: 550;
+    letter-spacing: -0.05dvw;
+    line-height: 2.4dvw;
+}
+
+.service-information {
+    padding-top: 9dvw;
+    
+}
+.service-information-container {
+    padding-left: 5dvw;
+    padding-right: 5dvw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.service-information-description {
+    width: 60dvw;
+    font-family: "Inter Tight", sans-serif;
+    color: black;
+    opacity: 0.6;
+    font-size: 1.3dvw;
+    font-weight: 427;
+    letter-spacing: -0.001dvw;
+    line-height: 2dvw;
+}
+
+
+/* ////////////////////Explore Private Engagement//////////////////////////////////// */
+.explore-private-engagement {
+    padding-left: 5dvw;
+    padding-right: 5dvw;
+    padding-top: 10dvw;
+    padding-bottom: 10dvw;
+    background-color: #f0f1f3;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    gap: 2dvw;
+}
+
+.explore-title {
+    font-family: "Playfair", serif;
+    color: #171C26;
+    font-size: 3.5dvw;
+    font-weight: 500;
+    letter-spacing: -0.2dvw;
+    line-height: 2.4dvw;
+}
+
+.explore-description {
+    font-family: "Inter Tight", sans-serif;
+    color: black;
+    opacity: 0.6;
+    font-size: 1.3dvw;
+    font-weight: 427;
+    letter-spacing: .11dvw;
+    line-height: 2dvw;
+}
+
+.explore-button {
+    padding: 1.4dvw 4dvw;
+    background-color: #12294b;
+    color:white;
+    font-weight: 550;
+    font-size: .9dvw;
+    letter-spacing: .05dvw;
+    border: none;
+}
