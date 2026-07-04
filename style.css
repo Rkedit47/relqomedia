@@ -1,11 +1,13 @@
 
 
-body {
-    font-family: "Inter Tight", sans-serif;
-    font-family: "Playfair", serif;
+*{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+body {
+    font-family: "Inter Tight", sans-serif;
+    font-family: "Playfair", serif;
 
 }
 
@@ -15,6 +17,9 @@ body {
     padding-top: 10dvw;
     padding-bottom: 10dvw;
     background-color: #f0f1f3;
+    display: flex;
+    flex-direction: column;
+    gap:3dvw;
     
 }
 .service-heading {
@@ -38,9 +43,9 @@ body {
     font-family: "Inter Tight", sans-serif;
     color: black;
     opacity: 0.6;
-    font-size: 1.6dvw;
+    font-size: 1.5dvw;
     font-weight: 400;
-    letter-spacing: -0.001dvw;
+    letter-spacing: 0.05dvw;
     line-height: 2dvw;
     padding-right: 30dvw;
 }
@@ -77,6 +82,9 @@ body {
 
 .service-information {
     padding-top: 9dvw;
+    display: flex;
+    flex-direction: column;
+    gap:6dvw;
     
 }
 .service-information-container {
@@ -107,8 +115,10 @@ body {
     padding-top: 10dvw;
     padding-bottom: 10dvw;
     background-color: #f0f1f3;
-    justify-content: center;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    gap:3dvw;
+    align-items: center;
     text-align: center;
     gap: 2dvw;
 }
@@ -153,6 +163,9 @@ body {
     padding-top: 10dvw;
     padding-bottom: 10dvw;
     background-color: #f0f1f3;
+    display: flex;
+    flex-direction: column;
+    gap:3dvw
 }
 .disclosure-text{
     font-family: "Inter Tight", sans-serif;
@@ -183,7 +196,9 @@ body {
     padding-right: 38dvw;
     display: flex;
     flex-direction: column;
-    gap: .3dvw;
+    gap: 2dvw;
+    padding-top:5dvw;
+    padding-bottom: 5dvw;
 }
 
 
@@ -192,6 +207,9 @@ body {
 .disclosure-question {
     padding-top: 4dvw;
     padding-bottom: 4dvw;
+    display: flex;
+    flex-direction: column;
+    gap:2.5dvw;
     text-align: center;
     justify-items: center;
     align-items: center;
@@ -213,4 +231,207 @@ body {
     font-size: .9dvw;
     letter-spacing: .05dvw;
     border: none;
+}
+
+/* ///////////////////////////////// NEWS & MEDIA/////////////////////// */
+.news-header{
+    padding-left: 21.5dvw;
+    padding-top: 8dvw;
+    display: flex;
+    flex-direction: column;
+    gap: 2.7dvw;
+}
+.news-category {
+    font-family: "Inter Tight", sans-serif;
+    color: black;
+    opacity: 0.8;
+    font-size: .98dvw;
+    font-weight: 510;
+    letter-spacing: 0.25dvw;
+    line-height: 1dvw;
+}
+
+.news-title {
+    font-family: "playfair display", serif;
+    color: #171C26;
+    font-size: 3.7dvw;
+    font-weight: 450;
+    letter-spacing: -0.2dvw;
+    line-height: 1.8dvw;
+}
+
+.news-description{
+    font-family: "Inter Tight", sans-serif;
+    color: black;
+    opacity: 0.6;
+    font-size: 1.4dvw;
+    font-weight: 400;
+    letter-spacing: .03dvw;
+    line-height: 2dvw;
+}
+
+/* ////////////////////////////NEWS BODY///////////////////////////// */
+
+.news-body {
+    padding-left: 21.5dvw;
+    padding-right: 21.5dvw;
+    padding-top: 8dvw;
+    padding-bottom: 8dvw;
+    display: flex;
+    flex-direction: column;
+    gap:5dvw;
+}
+.news-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 0.01dvw solid #E5E5E5;
+    text-decoration: none;
+}
+
+.news-container-head{
+    display: flex;
+    flex-direction: column;
+    gap:1dvw;
+    text-decoration: none;
+
+    
+}
+.news-container-date {
+    font-family: "Inter Tight", sans-serif;
+    color: black;
+    opacity: 0.6;
+    font-size: 0.95dvw;
+    font-weight: 510;
+    letter-spacing: 0.19dvw;
+    line-height: 1dvw;
+}
+.news-container-title {
+    font-family: "Playfair", serif;
+    color: #171C26;
+    font-size: 2.1dvw;
+    font-weight: 500;
+    letter-spacing: -0.05dvw;
+}
+.news-container-button{
+    font-family: "Inter Tight", sans-serif;
+    font-size: 1.1dvw;
+    opacity:0.6;
+    white-space: nowrap;
+    margin-top: 2.4dvw;
+    text-decoration: none;
+    color: black;
+}
+.news-container-description {
+    font-family: "Inter Tight", sans-serif;
+    color: black;
+    opacity: 0.6;
+    font-size: 1.15dvw;
+    font-weight: 427;
+    letter-spacing: 0.09dvw;
+    line-height: 2dvw;
+}
+
+/* //////////////////////////////////large-scale-market-visibility-public-companies-markdown///////////////////////////////// */
+.Retail-investor-awareness{
+padding-left: 21.5dvw;
+padding-right: 21.5dvw;
+padding-top: 8dvw;
+display: flex;
+flex-direction: column; 
+gap: 2.5dvw;
+
+}
+
+.retail-back{
+    font-family: "Inter Tight", sans-serif;
+    font-size: 1.1dvw;
+    font-weight: 500;
+    opacity: 0.7;
+}
+.retail-header{
+    display: flex;
+    flex-direction: column;
+    gap:3dvw;
+}
+
+
+.retail-title{
+    font-family: "Playfair Display", serif;
+    color: #171C26;
+    font-size: 3.7dvw;
+    font-weight: 500;
+    letter-spacing: -0.05dvw;
+    line-height: 3.5dvw;
+}
+
+.retail-meta{
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+    opacity: 0.7;
+    padding-top:1.5dvw;
+    padding-bottom: 1.5dvw;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.1dvw;
+    border-top:0.1dvw solid rgb(184, 180, 180);
+    border-bottom: 0.1dvw solid rgb(184, 180, 180);
+}
+
+.retail-description {
+    display: flex;
+    flex-direction: column;
+    gap: 2dvw;
+}
+.retail-description p{
+    font-family: "Inter Tight", sans-serif;
+    color: black;
+    opacity: 0.6;
+    font-size: 1.3dvw;
+    font-weight: 427;
+    letter-spacing: 0.05dvw;
+    line-height: 2dvw;
+}
+
+.investor-attention{
+    display: flex;
+    flex-direction: column;
+    gap: 2.3dvw;
+}
+.investor-attention h1{
+    font-family: "Inter Tight", sans-serif;
+    font-size: 1.3dvw;
+    font-weight: 200dvw;
+    letter-spacing: 0.15dvw;
+    opacity: 0.9;
+}
+
+.investor-attention p{
+    font-family: "Inter Tight", sans-serif;
+    color: black;
+    opacity: 0.6;
+    font-size: 1.4dvw;
+    font-weight: 400;
+    letter-spacing: 0.05dvw;
+    line-height: 2dvw;
+}
+.investor-attention ul li{
+     font-family: "Inter Tight", sans-serif;
+    color: black;
+    opacity: 0.6;
+    font-size: 1.4dvw;
+    font-weight: 400;
+    letter-spacing: 0.05dvw;
+    line-height: 2dvw;   
+}
+.investor-attention ol li{
+     font-family: "Inter Tight", sans-serif;
+    color: black;
+    opacity: 0.6;
+    font-size: 1.4dvw;
+    font-weight: 400;
+    letter-spacing: 0.05dvw;
+    line-height: 2dvw;   
 }
