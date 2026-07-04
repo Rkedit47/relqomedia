@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Inter Tight", sans-serif;
   font-family: "Playfair", serif;
@@ -50,11 +55,11 @@ nav {
 /* Services */
 
 .service-header {
-  padding-left: 5dvw;
-  padding-right: 5dvw;
-  padding-top: 10dvw;
-  padding-bottom: 10dvw;
+  padding: 10dvw 5dvw;
   background-color: #f0f1f3;
+  display: flex;
+  flex-direction: column;
+  gap: 2.7dvw;
 }
 .service-heading {
   font-family: "Inter Tight", sans-serif;
@@ -68,9 +73,9 @@ nav {
 .service-main-heading {
   font-family: "Playfair", serif;
   color: #171c26;
-  font-size: 4.3dvw;
+  font-size: 4.1dvw;
   font-weight: 500;
-  letter-spacing: -0.3dvw;
+  letter-spacing: -0.2dvw;
   line-height: 2dvw;
 }
 .service-description {
@@ -94,7 +99,7 @@ nav {
   width: 50dvw;
   display: flex;
   flex-direction: row;
-  gap: 5dvw;
+  gap: 6dvw;
 }
 .service-number {
   font-family: "Inter Tight", sans-serif;
@@ -105,10 +110,10 @@ nav {
   line-height: 3dvw;
 }
 .service-title {
-  font-family: "Playfair", serif;
+  font-family: "Playfair display", serif;
   color: #171c26;
-  font-size: 2.6dvw;
-  font-weight: 550;
+  font-size: 2.2dvw;
+  font-weight: 500;
   letter-spacing: -0.05dvw;
   line-height: 2.4dvw;
 }
@@ -117,8 +122,7 @@ nav {
   padding-top: 9dvw;
 }
 .service-information-container {
-  padding-left: 5dvw;
-  padding-right: 5dvw;
+padding: 0 5dvw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -133,19 +137,21 @@ nav {
   font-weight: 427;
   letter-spacing: -0.001dvw;
   line-height: 2dvw;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5dvw;
 }
 
 /* ////////////////////Explore Private Engagement//////////////////////////////////// */
 .explore-private-engagement {
-  padding-left: 5dvw;
-  padding-right: 5dvw;
-  padding-top: 10dvw;
-  padding-bottom: 10dvw;
-  background-color: #f0f1f3;
-  justify-content: center;
-  justify-items: center;
-  text-align: center;
+  padding: 10dvw 5dvw;
+  display: flex;
+  flex-direction: column;
   gap: 2dvw;
+  background-color: #f0f1f3;
+  text-align: center;
+  align-items: center;
+
 }
 
 .explore-title {
@@ -179,14 +185,14 @@ nav {
 
 /* Disclosure/////////////////////////////////////////////////////// */
 .disclosure {
-  padding-top: 10dvw;
+  padding-bottom: 10dvw;
 }
 .disclosure-head {
-  padding-left: 5dvw;
-  padding-right: 5dvw;
-  padding-top: 10dvw;
-  padding-bottom: 10dvw;
+  padding: 10dvw 5dvw;
   background-color: #f0f1f3;
+  display: flex;
+  flex-direction: column;
+  gap: 3dvw;
 }
 .disclosure-text {
   font-family: "Inter Tight", sans-serif;
@@ -217,7 +223,7 @@ nav {
   padding-right: 38dvw;
   display: flex;
   flex-direction: column;
-  gap: 0.3dvw;
+  gap: 2dvw;
 }
 
 /* //////////////////////DISCLOSURE QUESTION ////////////////////////// */
@@ -225,8 +231,10 @@ nav {
 .disclosure-question {
   padding-top: 4dvw;
   padding-bottom: 4dvw;
+  display: flex;
+  flex-direction: column;
+  gap: 3dvw;
   text-align: center;
-  justify-items: center;
   align-items: center;
   background-color: #f0f1f3;
 }
@@ -247,6 +255,182 @@ nav {
   letter-spacing: 0.05dvw;
   border: none;
 }
+
+
+/* /////////////////////////////////News///////////////////////////// */
+.news{
+    padding: 8dvw 21.5dvw;
+    display: flex;
+    flex-direction: column;
+    gap: 5dvw;
+}
+.news-header{
+  display: flex;
+  flex-direction: column;
+  gap: 1dvw;
+}
+
+.news-press-release{
+  font-family: "inter tight", sans-serif;
+  font-size: 1dvw;
+  letter-spacing: 0.1dvw;
+  font-weight: 500;
+}
+
+.news-title{
+  font-family: "playfair display", sans-serif;
+  font-size: 3.7dvw;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.news-description{
+  font-family: "inter tight", sans-serif;
+  font-size: 1.4dvw;
+  letter-spacing: 0.1dvw;
+  opacity: 0.7;
+
+}
+
+/* /////////////////////NEWS BODY + CONTAINER////////////////// */
+
+.news-body{
+  display: flex;
+  flex-direction: column;
+  gap: 4dvw;
+}
+
+.news-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 6dvw;
+
+}
+.news-container-box{
+  display: flex;
+  flex-direction: column;
+  gap: 0.7dvw;
+
+}
+.news-container-box-date{
+  font-family: "Inter Tight", sans-serif;
+  font-size: 1.1dvw;
+  letter-spacing: 0.09dvw;
+  opacity: 0.7
+}
+
+.news-container-box-title{
+  font-family: "playfair display", sans-serif;
+  opacity: 0.9;
+  font-size: 1.9dvw;
+  font-weight: 500;
+  letter-spacing: -0.1dvw;
+}
+.news-container-box-description{
+  font-family: "inter tight", sans-serif;
+  font-size: 1.15dvw;
+  opacity: 0.7;
+  letter-spacing: 0.03dvw;
+  line-height: 1.7dvw;
+}
+
+.news-container a{
+  text-decoration: none;
+  color: black;
+  white-space: nowrap;
+  padding-top: 2.8dvw;
+}
+
+/* ///////////////////////////NEWS LINKS TO NEXT PAGES///////////////////////////// */
+
+.Retail-investor-awareness{
+  display: flex;
+  flex-direction: column;
+  gap: 2.5dvw;
+  padding: 8dvw 21.5dvw;
+}
+
+.retail-back{
+  font-family: "inter tight",  sans-serif;
+  font-size: 1dvw;
+  opacity: 0.7;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.retail-header{
+  display: flex;
+  flex-direction: column;
+  gap: 2dvw;
+}
+.retail-title{
+  font-family: "playfair display", sans-serif;
+  font-size: 3.6dvw;
+  opacity: 0.9;
+  font-weight: 500;
+  line-height: 3.7dvw;
+  letter-spacing: -0.15dvw;
+
+}
+
+
+
+
+.retail-header .retail-meta{
+  font-family: "inter tight", sans-serif;
+  font-size: 1.1dvw;
+  opacity: 0.7; 
+  letter-spacing: 0.05dvw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.5dvw 1dvw;
+  border-top: 0.1dvw solid rgb(192, 189, 189);
+  border-bottom: 0.1dvw solid rgb(192, 189, 189);
+
+}
+
+.retail-description{
+  display: flex;
+  flex-direction: column;
+  gap: 2dvw;
+  font-size: 1.25dvw;
+  font-family: "inter tight", sans-serif;
+  opacity: 0.7;
+  letter-spacing: 0.1dvw;
+}
+
+/* ///////////////////Investor attention///////////// */
+.investor-attention{
+  display: flex;
+  flex-direction: column;
+  gap: 2dvw;
+  font-size: 1.25dvw;
+  font-family: "inter tight", sans-serif;
+  opacity: 0.7;
+  letter-spacing: 0.1dvw;
+}
+.investor-attention h1{
+  font-size: 1.3dvw;
+  opacity: 1.0;
+
+}
+
+.investor-attention ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1dvw;
+}
+
+.investor-attention ol {
+  display: flex;
+  flex-direction: column;
+  gap: 1dvw;
+}
+
+
 
 /* Footer */
 footer {
