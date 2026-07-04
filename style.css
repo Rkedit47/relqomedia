@@ -1,6 +1,6 @@
-
-
-*{
+body {
+    font-family: "Inter Tight", sans-serif;
+    font-family: "Playfair", serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -9,6 +9,44 @@ body {
     font-family: "Inter Tight", sans-serif;
     font-family: "Playfair", serif;
 
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fffffff2;
+    padding: 14px;
+}
+.nav-logo a{
+    text-decoration: none;
+    font-family: "Playfair", serif;
+    font-size: 1.6vw;
+    font-weight: 500;
+    color: #171C26;    
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2vw;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #656e81;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    transition: ease-in 0.2s;
+}
+.nav-links li a:hover{
+    color: #171C26;
+}
+.nav-btn a{
+    border: none;
+    background-color: #192743;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 12px 18px;
 }
 
 .service-header {
