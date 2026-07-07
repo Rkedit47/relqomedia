@@ -1040,133 +1040,133 @@ form p {
     padding: 0 1rem;
   }
 }
-/* Services */
-.service-header {
-  padding: 10dvw 5dvw;
-  background-color: #f0f1f3;
-  display: flex;
-  flex-direction: column;
-  gap: 2.7dvw;
+/* Service */
+/* Service Header Section */
+.service-section {
+  padding: 7rem 0rem;
+  background-color: #f6f7f8;
+}
+.service-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
 }
 .service-heading {
   font-family: "Inter Tight", sans-serif;
-  color: black;
-  opacity: 0.6;
-  font-size: 0.95dvw;
-  font-weight: 510;
-  letter-spacing: 0.1dvw;
-  line-height: 1dvw;
+  color: #656e81;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
 }
 .service-main-heading {
-  font-family: "Playfair", serif;
+  font-family: "Playfair Display", serif;
   color: #171c26;
-  font-size: 4.1dvw;
+  font-size: 3rem;
+  line-height: 1;
+  letter-spacing: -0.025em;
   font-weight: 500;
-  letter-spacing: -0.2dvw;
-  line-height: 2dvw;
+  margin-bottom: 1.5rem;
 }
 .service-description {
-  font-family: "Inter Tight", sans-serif;
-  color: black;
-  opacity: 0.6;
-  font-size: 1.6dvw;
+  font-family: "Inter", sans-serif;
+  color: #656e81;
+  font-size: 1.25rem;
   font-weight: 400;
   letter-spacing: -0.001dvw;
-  line-height: 2dvw;
-  padding-right: 30dvw;
+  line-height: 1.62rem;
 }
-
+/* Responsive Service Header section */
+@media (max-width: 768px) {
+  .service-container {
+    padding: 0 20px;
+  }
+}
+/* Service Information */
 .service-information {
-  display: flex;
-  flex-direction: column;
-  gap: 10dvw;
-  padding-bottom: 10dvw;
+  background-color: #ffffff;
+  padding: 7rem 0rem;
 }
-.service-information-number {
-  width: 50dvw;
-  display: flex;
-  flex-direction: row;
-  gap: 6dvw;
+.service-information-box {
+  padding: 4rem;
+  border-bottom: #e2e4e980 1px solid;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 5% 35% 55%;
+  gap: 2rem;
 }
 .service-number {
-  font-family: "Inter Tight", sans-serif;
-  color: #171c26;
-  opacity: 0.6;
-  font-size: 1dvw;
+  font-family: "Inter", sans-serif;
+  color: #656e81;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   font-weight: 500;
-  line-height: 3dvw;
 }
 .service-title {
   font-family: "Playfair display", serif;
   color: #171c26;
-  font-size: 2.2dvw;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
   font-weight: 500;
-  letter-spacing: -0.05dvw;
-  line-height: 2.4dvw;
+  letter-spacing: -0.025em;
 }
-
-.service-information {
-  padding-top: 9dvw;
-}
-.service-information-container {
-  padding: 0 5dvw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.service-information-description {
-  width: 60dvw;
-  font-family: "Inter Tight", sans-serif;
-  color: black;
-  opacity: 0.6;
-  font-size: 1.3dvw;
-  font-weight: 427;
-  letter-spacing: -0.001dvw;
-  line-height: 2dvw;
+.service-information-description p {
+  font-family: "Inter", sans-serif;
+  color: #656e81;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  margin-bottom: 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 1.5dvw;
 }
-
-/* ////////////////////Explore Private Engagement//////////////////////////////////// */
-.explore-private-engagement {
-  padding: 10dvw 5dvw;
-  display: flex;
-  flex-direction: column;
-  gap: 2dvw;
-  background-color: #f0f1f3;
-  text-align: center;
-  align-items: center;
+/* Responsive Service Information */
+@media (max-width: 1024px) {
+  .service-information-box {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 4rem 0rem;
+  }
 }
-
+/* Service Explore Section */
+.service-explore-section {
+  padding: 7rem 0rem;
+  background-color: #f6f7f8;
+}
 .explore-title {
+  text-align: center;
   font-family: "Playfair", serif;
   color: #171c26;
-  font-size: 3.5dvw;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
   font-weight: 500;
-  letter-spacing: -0.2dvw;
-  line-height: 2.4dvw;
+  margin-bottom: 1.5rem;
 }
-
 .explore-description {
-  font-family: "Inter Tight", sans-serif;
-  color: black;
-  opacity: 0.6;
-  font-size: 1.3dvw;
-  font-weight: 427;
-  letter-spacing: 0.11dvw;
-  line-height: 2dvw;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  color: #656e81;
+  line-height: 1.625rem;
+  font-size: 1.125rem;
+  margin-bottom: 2.5rem;
 }
-
+.service-information-btn{
+  text-align: center;
+}
 .explore-button {
-  padding: 1.4dvw 4dvw;
+  text-transform: uppercase;
+  padding: 1rem 2.5rem;
   background-color: #12294b;
   color: white;
-  font-weight: 550;
-  font-size: 0.9dvw;
-  letter-spacing: 0.05dvw;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.025em;
   border: none;
+}
+.explore-button:hover{
+  background-color: #22365d;
 }
 
 /* Disclosure/////////////////////////////////////////////////////// */
