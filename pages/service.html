@@ -11,38 +11,49 @@
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet" />
     <!-- Css link -->
-    <link rel="stylesheet" href="../style.css" />
-    <script src="../javascript.js"></script>
+    <link rel="stylesheet" href="../style.css"/>
+    <!-- Js Link -->
+    <script src="../script.js" defer></script>
     <title>Document</title>
 </head>
 
 <body>
-        <nav>
-        <div class="nav-logo">
-            <a href="/index.html">Relqo Media</a>
-        </div>
+      <header>
+    <!-- NabBar  -->
+    <nav>
+      <a class="nav-logo" href="index.html">Relqo Media</a>
+
+      <div class="nav-menu">
         <ul class="nav-links">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/services/index.html">Services</a></li>
-            <li><a href="/disclosure/index.html">Disclosures</a></li>
-            <li><a href="/news/index.html">News</a></li>
+          <li><a href="../index.html" class="active">Home</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="disclosure.html">Disclosures</a></li>
+          <li><a href="disclosure.html">News</a></li>
         </ul>
-        <div class="nav-btn">
-            <a href="#">Request Briefing</a>
-        </div>
+
+        <a class="nav-btn" href="#contact">Request Briefing</a>
+      </div>
+
+      <button class="navbar-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
     </nav>
-    
-    <div class="service-container">
-        <!-- //////////////////// /HEADER////////////////////////// -->
-        <div class="service-header">
-            <p class="service-heading">OUR SERVICES</p>
-            <h1 class="service-main-heading">
-                Services Designed for Public Markets
-            </h1>
-            <p class="service-description">
-                Every Relqo Media engagement is structured to support credibility,
-                visibility, and sustained market presence.
-            </p>
+  </header>
+    <main>
+        <!-- ///////////////////////Services Header//////////////////////// -->
+        <div class="service-section">
+            <div class="service-container">
+                <p class="service-heading">OUR SERVICES</p>
+                <h1 class="service-main-heading">
+                    Services Designed for Public Markets
+                </h1>
+                <p class="service-description">
+                    Every Relqo Media engagement is structured to support credibility,
+                    visibility, and sustained market presence.
+                </p>
+            </div>
         </div>
         <!-- ///////////////////////INFORMATION//////////////////////// -->
         <div class="service-information">
@@ -139,47 +150,54 @@
                 <br />
                 objectives.
             </p>
-            <a href="/index.html#private" class="explore-button">CONSULT A PRIVATE BRIEFING</a>
+            <div class="service-information-btn">
+                <button class="explore-button">CONSULT A PRIVATE BRIEFING</button>
+            </div>
+            </div>
         </div>
+        </div>
+    </main>
+      <!-- footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-logo-container">
+          <p class="footer-logo">Relqo Media</p>
+          <p class="footer-tagline">
+            Investor Awareness and Market Visibility
+          </p>
+          <p class="footer-email">Support@RelqoMedia.com</p>
+          <p class="footer-address">
+            1309 Coffeen Ave Ste 1200<br />
+            Sheridan, Wy 82801
+          </p>
+        </div>
+        <div class="footer-navigation">
+          <p class="footer-heading">Navigation</p>
+          <ul class="footer-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="disclosure.html">Disclosures</a></li>
+            <li><a href="optin.html">Opt In</a></li>
+          </ul>
+        </div>
+        <div class="footer-legal">
+          <h3 class="footer-heading">Legal</h3>
+          <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">SMS Terms</a></li>
+            <li><a href="#">SMS Terms Marketing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Relqo Media LLC. All rights reserved.</p>
+        <p>Institutional-Grade Market Visibility</p>
+      </div>
     </div>
-        <footer>
-        <div class="footer-container">
-            <div class="footer-top">
-                <div class="footer-logo-container">
-                    <p class="footer-logo">Relqo Media</p>
-                    <p class="footer-tagline">Investor Awareness and Market Visibility</p>
-                    <p class="footer-email">Support@RelqoMedia.com</p>
-                    <p class="footer-address">
-                        1309 Coffeen Ave Ste 1200<br />
-                        Sheridan, Wy 82801
-                    </p>
-                </div>
-                <div class="footer-navigation">
-                    <p class="footer-heading">Navigation</p>
-                    <ul class="footer-links">
-                        <li><a href="/index.html">Home</a></li>
-                        <li><a href="/services/index.html">Services</a></li>
-                        <li><a href="/disclosure/index.html">Disclosures</a></li>
-                        <li><a href="/opt-in/index.html">Opt In</a></li>
-                    </ul>
-                </div>
-                <div class="footer-legal">
-                    <h3 class="footer-heading">Legal</h3>
-                    <ul class="footer-links">
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">SMS Terms</a></li>
-                        <li><a href="#">SMS Terms Marketing</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>© 2026 Relqo Media LLC. All rights reserved.</p>
-                <p>Institutional-Grade Market Visibility</p>
-            </div>
-        </div>
-    </footer>
+  </footer>
 </body>
 
 </html>
