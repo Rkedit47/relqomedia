@@ -1372,9 +1372,9 @@ form p {
 }
 /* Service */
 /* Service Header Section */
-.service-section {
-  padding: 7rem 0rem;
-  background-color: #f6f7f8;
+.service-header{
+  padding: 8vw 5dvw;
+  background-color: #f0f1f3;
 }
 .service-container {
   max-width: 1200px;
@@ -1420,7 +1420,8 @@ form p {
 /* Service Information */
 .service-information {
   background-color: #ffffff;
-  padding: 7rem 0rem;
+  /* padding:rem 0rem; */
+  margin: 0;
 }
 .service-information-box {
   padding: 4rem;
@@ -1461,7 +1462,6 @@ form p {
 }
 
 .service-information-description {
-  width: 60dvw;
   font-family: "Inter Tight", sans-serif;
   color: black;
   opacity: 0.6;
@@ -1493,6 +1493,13 @@ form p {
   padding: 7rem 0rem;
   background-color: #f6f7f8;
 }
+.explore-container{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: center;
+  text-align: start;
+}
 .explore-title {
   text-align: center;
   font-family: "Playfair", serif;
@@ -1510,9 +1517,7 @@ form p {
   font-size: 1.125rem;
   margin-bottom: 2.5rem;
 }
-.service-information-btn{
-  text-align: center;
-}
+
 .explore-button {
   text-transform: uppercase;
   padding: 1rem 2.5rem;
