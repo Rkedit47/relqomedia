@@ -25,7 +25,6 @@ nav {
   top: 0;
   z-index: 1000;
 }
-
 .nav-logo {
   text-decoration: none;
   font-family: "Playfair Display", serif;
@@ -38,7 +37,6 @@ nav {
   align-items: center;
   gap: 40px;
 }
-
 .nav-links {
   display: flex;
   align-items: center;
@@ -47,7 +45,6 @@ nav {
   margin: 0;
   padding: 0;
 }
-
 .nav-links a {
   text-decoration: none;
   color: #656e81;
@@ -56,11 +53,9 @@ nav {
   font-weight: 500;
   transition: 0.3s;
 }
-
 .nav-links a:hover {
   color: #171c26;
 }
-
 .nav-btn {
   background: #192743;
   color: #fff;
@@ -77,329 +72,7 @@ nav {
 .nav-btn:hover {
   background: #223558;
 }
-
-/*  //////////////////HOME PAGE//////////////////////// */
-.company-comp {
-  width: 55dvw;
-  justify-self: center;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 2dvw;
-  padding: 5dvw 0;
-}
-
-.company-comp-title {
-  font-family: "playfair display", sans-serif;
-  font-size: 2.5dvw;
-  font-weight: 500;
-  color: rgb(29, 29, 29);
-}
-
-.company-comp-description {
-  font-family: "inter tight", sans-serif;
-  font-size: 1.4dvw;
-  display: flex;
-  flex-direction: column;
-  gap: 2dvw;
-  color: gray;
-}
-
-.company-comp-footer {
-  font-family: "inter tight ", sans-serif;
-}
-
-/* /////////////////////////////////MARKET ENGINEERING//////////////////////////////// */
-.market-eng {
-  display: flex;
-  flex-direction: column;
-  gap: 7dvw;
-  padding: 7dvw 5dvw;
-  background-color: #f0f1f3;
-}
-
-.market-eng-head {
-  display: flex;
-  flex-direction: column;
-  gap: 2dvw;
-  padding-right: 32dvw;
-}
-
-.market-eng-head-title {
-  font-family: "playfair display", sans-serif;
-  font-weight: 600;
-  font-size: 2.4dvw;
-  color: rgb(65, 62, 62);
-}
-
-.market-eng-head-description {
-  font-family: "inter tight", sans-serif;
-  font-size: 1.4dvw;
-  display: flex;
-  flex-direction: column;
-  gap: 2dvw;
-  color: gray;
-}
-
-.market-eng-containers {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 3dvw;
-}
-
-.market-eng-box {
-  width: 27.6dvw;
-  background-color: white;
-  padding: 2dvw;
-  display: flex;
-  flex-direction: column;
-  gap: 1dvw;
-  border: 0.15dvw solid white;
-}
-
-.market-eng-box:hover {
-  border: 0.15dvw solid rgb(202, 201, 201);
-}
-
-.market-eng-title {
-  font-family: "playfair display", sans-serif;
-  font-size: 1.4dvw;
-  font-weight: 500;
-}
-
-.market-eng-description {
-  font-family: "inter tight", sans-serif;
-  font-size: 1.1dvw;
-  display: flex;
-  flex-direction: column;
-  gap: 2dvw;
-  color: gray;
-  line-height: 1.6dvw;
-}
-
-/* //////////////////////////////BEST FOR PUBLIC MARKTETS//////////////// */
-.best {
-  padding: 7dvw 5dvw;
-  display: flex;
-  flex-direction: row;
-}
-
-.best-public {
-  width: 47dvw;
-  display: flex;
-  flex-direction: column;
-  gap: 2.3dvw;
-}
-
-.best-public-title {
-  font-family: "playfair display", sans-serif;
-  font-size: 2.8dvw;
-  font-weight: 450;
-  letter-spacing: -0.1dvw;
-}
-
-.best-public-description {
-  font-family: "inter tight", sans-serif;
-  font-size: 1.3dvw;
-  display: flex;
-  flex-direction: column;
-  gap: 2dvw;
-  color: gray;
-  font-weight: 500;
-  padding-left: 1.2dvw;
-}
-
-.best-public-description li::marker {
-  color: black;
-}
-
-.best-partner {
-  width: 43dvw;
-  display: flex;
-  flex-direction: column;
-  gap: 2dvw;
-  background-color: #f0f1f3;
-  padding: 5dvw 0 5dvw 5dvw;
-}
-
-.best-partner-title {
-  font-family: "playfair display", sans-serif;
-  font-size: 1.8dvw;
-  font-weight: 500;
-}
-
-.best-partner-description {
-  font-family: "inter tight", sans-serif;
-  font-size: 1.2dvw;
-  display: flex;
-  flex-direction: column;
-  gap: 1.3dvw;
-  color: gray;
-  font-weight: 500;
-}
-
-/* /////////////////////////ENGAGEMENT MEDEL//////////////////// */
-.model {
-  display: flex;
-  flex-direction: column;
-  gap: 6dvw;
-  padding: 6dvw 16dvw;
-  background-color: #f0f1f3;
-}
-
-.model-title {
-  text-align: center;
-  font-size: 3vw;
-  font-weight: 500;
-  letter-spacing: -0.1dvw;
-}
-.model-listssss {
-  display: flex;
-  flex-direction: column;
-  /* gap: 1dvw; */
-}
-.model-list {
-  display: flex;
-  flex-direction: row;
-  gap: 3dvw;
-  border-bottom: 0.1dvw solid rgb(239, 238, 238);
-  /* border-bottom: 0.1dvw solid black; */
-  align-items: center;
-  padding: 2dvw 0;
-}
-.model-list:hover {
-  border-bottom: 0.1dvw solid rgb(218, 213, 213);
-}
-.model-list-num {
-  font-family: "inter tight", sans-serif;
-  font-size: 1.1dvw;
-  font-weight: 500;
-  color: gray;
-}
-
-.model-list-title {
-  font-family: "playfair display", sans-serif;
-  font-size: 1.5dvw;
-  font-weight: 500;
-}
-
-/* ?///////////////RELQOMEDIA OPERATES////////////////////////// */
-.operation {
-  padding: 7dvw 18dvw;
-  margin-bottom: 4dvw;
-  text-align: center;
-  background-color: #192743;
-}
-.operation h1 {
-  font-family: "playfair display", sans-serif;
-  color: white;
-  font-size: 2.5dvw;
-}
-
-/* ///////////////////////////REQUEST PRIVATE BRIEFING////////////////// */
-.private {
-  display: flex;
-  flex-direction: column;
-  gap: 3dvw;
-  padding: 8dvw 25dvw;
-}
-.private-head {
-  display: flex;
-  flex-direction: column;
-  gap: 2dvw;
-  text-align: center;
-}
-
-.private-head-title {
-  font-family: "playfair display", sans-serif;
-  font-size: 2.9dvw;
-  font-weight: 500;
-  letter-spacing: -0.1dvw;
-}
-
-.private-head-description {
-  font-family: "inter tight", sans-serif;
-  font-size: 1.4dvw;
-  color: gray;
-}
-.private-form {
-  font-family: "inter tight", sans-serif;
-  background-color: #f0f1f3;
-  border: 0.1dvw solid rgb(236, 233, 233);
-  padding: 4dvw 3dvw;
-  display: flex;
-  flex-direction: column;
-  gap: 3dvw;
-}
-.form-pair {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.form-pair .form-box input {
-  width: 20dvw;
-  height: 2.8dvw;
-  border: 0.1px solid rgb(233, 231, 231);
-}
-.form-box {
-  display: flex;
-  flex-direction: column;
-  gap: 1dvw;
-}
-.form-box label {
-  font-size: 1.1dvw;
-  font-weight: 600;
-  color: rgb(46, 45, 45);
-}
-.form-box input {
-  height: 2.8dvw;
-  border: 0.1px solid rgb(233, 231, 231);
-  padding: 0 1dvw;
-}
-.form-box .selector {
-  border: 0.1dvw solid black;
-  padding: 0.2dvw;
-}
-.form-box .selector select {
-  width: 42.3dvw;
-  height: 2.9dvw;
-  border: 0.1px solid rgb(233, 231, 231);
-  padding: 0 1dvw;
-  border: 0.1dvw solid rgb(70, 69, 69);
-}
-.form-box .selector select option {
-  display: flex;
-  flex-direction: column;
-  gap: 2dvw;
-  padding: 3dvw 0;
-}
-
-.form-box .form-box-discuss {
-  height: 10dvw;
-  border: 0.1px solid rgb(233, 231, 231);
-  padding: 1dvw;
-}
-
-.form-button {
-  font-size: 1dvw;
-  font-weight: 600;
-  color: white;
-  background-color: #12294b;
-  padding: 1.5dvw;
-  border: none;
-}
-.private-form p {
-  font-size: 1dvw;
-  color: gray;
-  text-align: center;
-}
-
-/* Services */
-
 /* Menu icon Navbar */
-
 .navbar-toggle {
   display: none;
   border: none;
@@ -407,7 +80,6 @@ nav {
   cursor: pointer;
   padding: 5px;
 }
-
 .bar {
   display: block;
   width: 25px;
@@ -416,9 +88,7 @@ nav {
   background: #171c26;
   transition: 0.3s;
 }
-
 /* Responsive Navbar */
-
 @media (max-width: 768px) {
   .nav-logo {
     font-size: 20px;
@@ -480,6 +150,7 @@ nav {
     transform: translateY(-8px) rotate(-45deg);
   }
 }
+
 
 /* Hero Section */
 .hero-container {
@@ -712,7 +383,9 @@ nav {
     line-height: 1.8;
   }
 }
+
 /* Engineer Section */
+
 .engineer-section {
   background-color: #f6f7f8;
   padding: 7rem 0;
@@ -848,6 +521,7 @@ nav {
     font-size: 14px;
   }
 }
+
 /* Market Section */
 
 .market-section {
@@ -1005,6 +679,7 @@ nav {
     font-size: 15px;
   }
 }
+
 /* Engagement Section  */
 
 .engagement-section {
@@ -1119,7 +794,9 @@ nav {
     line-height: 1.5;
   }
 }
+
 /* Operates Section */
+
 .operate-section {
   background-color: #192743;
   color: #ffffff;
@@ -1165,7 +842,9 @@ nav {
     line-height: 1.3;
   }
 }
+
 /* Contact section */
+
 .contact-section {
   background-color: #ffffff;
   padding: 7rem 0;
@@ -1526,84 +1205,98 @@ form p {
 }
 
 /* Disclosure/////////////////////////////////////////////////////// */
-.disclosure {
-  padding-bottom: 10dvw;
-  display: flex;
-  flex-direction: column;
-  gap: 5dvw;
+.disclosure-top-section,
+.disclosure-mid-section {
+  padding: 7rem 0rem;
 }
-
-.disclosure-head {
-  padding: 10dvw 5dvw;
-  background-color: #f0f1f3;
-  display: flex;
-  flex-direction: column;
-  gap: 3dvw;
+.disclosure-bottom-section {
+  padding: 4rem 0rem;
 }
-
-.disclosure-text {
-  font-family: "Inter Tight", sans-serif;
-  color: black;
-  opacity: 0.6;
-  font-size: 0.95dvw;
-  font-weight: 510;
-  letter-spacing: 0.2dvw;
-  line-height: 1dvw;
+.disclosure-top-section,
+.disclosure-bottom-section {
+  background-color: #f6f7f8;
+  border: #e2e4e980 1px solid;
 }
-
-.disclosure-heading {
-  font-family: "Playfair", serif;
+.disclosure-top-section-container,
+.disclosure-mid-section-container,
+.disclosure-bottom-section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.disclosure-top-section-container p {
+  color: #656e81;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 1.5rem;
+}
+.disclosure-top-section-container h1 {
+  font-size: 3rem;
+  line-height: 1;
   color: #171c26;
-  font-size: 4.6dvw;
   font-weight: 500;
-  letter-spacing: -0.35dvw;
-  line-height: 3.3dvw;
+  font-family: "Playfair Display", sans-serif;
+  letter-spacing: -0.025em;
 }
-
-.disclosure-body {
-  padding-left: 5dvw;
-  font-family: "Inter Tight", sans-serif;
-  color: rgb(83, 82, 82);
-  font-size: 1.2dvw;
-  font-weight: 450;
-  letter-spacing: 0.05dvw;
-  line-height: 1.4dvw;
-  padding-right: 38dvw;
-  display: flex;
-  flex-direction: column;
-  gap: 2dvw;
+.disclosure-mid-section-container p{
+  color: #656e81;
+  line-height: 1.625;
+  font-size: 1rem;
+  font-family: "Inter" , sans-serif;
+  max-width: 50rem;
 }
-
-/* //////////////////////DISCLOSURE QUESTION ////////////////////////// */
-
-.disclosure-question {
-  padding-top: 4dvw;
-  padding-bottom: 4dvw;
-  display: flex;
-  flex-direction: column;
-  gap: 3dvw;
+.disclosure-mid-section-container p + p {
+  margin-top: 2rem;
+}
+.disclosure-bottom-section-container {
   text-align: center;
-  align-items: center;
-  background-color: #f0f1f3;
 }
-
-.disclosure-question-heading {
-  font-family: "Playfair", serif;
-  font-size: 2.7dvw;
+.disclosure-bottom-section-container h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color: #171c26;
   font-weight: 500;
-  letter-spacing: -0.2dvw;
-  line-height: 2.4dvw;
+  font-family: "Playfair Display", sans-serif;
+  margin-bottom: 1.5rem;
 }
-
-.disclosure-question-button {
-  padding: 1.4dvw 4dvw;
-  background-color: #12294b;
-  color: white;
-  font-weight: 550;
-  font-size: 0.9dvw;
-  letter-spacing: 0.05dvw;
+.disclosure-bottom-section-container a {
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-family: "Inter", sans-serif;
+  padding: 1rem 2.5rem;
+  background-color: #192743;
   border: none;
 }
+.disclosure-bottom-section-container a:hover {
+  background: #223558;
+}
+/* Responsive Disclosures page */
+@media (max-width: 768px) {
+  .disclosure-top-section,
+  .disclosure-mid-section {
+    padding: 4rem 0;
+  }
+
+  .disclosure-bottom-section {
+    padding: 2.5rem 0;
+  }
+
+  .disclosure-top-section-container,
+  .disclosure-mid-section-container,
+  .disclosure-bottom-section-container {
+    padding: 0 20px;
+  }
+}
+
 
 /* /////////////////////////////////News///////////////////////////// */
 .news {
@@ -1688,7 +1381,7 @@ form p {
   padding-top: 2.8dvw;
 }
 
-/* ///////////////////////////NEWS LINKS TO NEXT PAGES///////////////////////////// */
+/* /////////////////////////// RETAIL PAGE  ///////////////////////////// */
 
 .Retail-investor-awareness {
   display: flex;
