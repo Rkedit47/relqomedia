@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Inter Tight", sans-serif;
   font-family: "Playfair", serif;
@@ -11,9 +10,7 @@ body {
   padding: 0;
   margin: 0;
 }
-
 /* NavBAR */
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -150,7 +147,6 @@ nav {
     transform: translateY(-8px) rotate(-45deg);
   }
 }
-
 /* Hero Section */
 .hero-container {
   padding: 0rem 2rem;
@@ -257,7 +253,6 @@ nav {
   border-top: 1px solid #e2e4e9;
   border-bottom: 1px solid #e2e4e9;
 }
-
 .features-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -268,11 +263,9 @@ nav {
   align-items: center;
   justify-items: center;
 }
-
 .feature-box {
   text-align: center;
 }
-
 .feature-box p {
   margin: 0;
   font-family: "Inter Tight", sans-serif;
@@ -298,19 +291,16 @@ nav {
   background: #fff;
   padding: 7rem 0;
 }
-
 .company-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 44px;
 }
-
 .company-sub-container {
   max-width: 760px;
   margin: 0 auto;
   text-align: center;
 }
-
 .company-section-heading {
   margin-bottom: 2rem;
   font-family: "Playfair Display", serif;
@@ -319,7 +309,6 @@ nav {
   line-height: 1.15;
   color: #171c26;
 }
-
 .company-sub-container p {
   margin: 0;
   font-family: "Inter Tight", sans-serif;
@@ -328,11 +317,9 @@ nav {
   font-weight: 400;
   color: #656e81;
 }
-
 .company-sub-container p + p {
   margin-top: 1.5rem;
 }
-
 .company-sub-container p:last-child {
   color: #171c26;
   font-weight: 600;
@@ -382,25 +369,20 @@ nav {
     line-height: 1.8;
   }
 }
-
 /* Engineer Section */
-
 .engineer-section {
   background-color: #f6f7f8;
   padding: 7rem 0;
 }
-
 .engineer-container-section {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 32px;
 }
-
 .engineer-section-top {
   max-width: 760px;
   margin-bottom: 4rem;
 }
-
 .engineer-heading {
   margin-bottom: 1.5rem;
   font-family: "Playfair Display", serif;
@@ -409,26 +391,22 @@ nav {
   line-height: 1.2;
   color: #171c26;
 }
-
 .engineer-text {
   font-family: "Inter", sans-serif;
   font-size: 18px;
   line-height: 1.7;
   color: #656e81;
 }
-
 .engineer-box-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
-
 .engineer-box {
   background: #ffffff;
   padding: 2rem;
   border: 1px solid #e2e4e9;
 }
-
 .engineer-box h3 {
   margin-bottom: 1rem;
   font-family: "Playfair Display", serif;
@@ -437,7 +415,6 @@ nav {
   line-height: 1.4;
   color: #171c26;
 }
-
 .engineer-box p {
   margin: 0;
   font-family: "Inter", sans-serif;
@@ -520,27 +497,22 @@ nav {
     font-size: 14px;
   }
 }
-
 /* Market Section */
-
 .market-section {
   background: #ffffff;
   padding: 7rem 0;
 }
-
 .market-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 32px;
 }
-
 .market-sub-container {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   gap: 4rem;
   align-items: start;
 }
-
 .market-left h2 {
   margin-bottom: 2rem;
   font-family: "Playfair Display", serif;
@@ -549,23 +521,19 @@ nav {
   line-height: 1.2;
   color: #171c26;
 }
-
 .market-left ul {
   margin: 0;
   padding: 0;
 }
-
 .market-left ul li {
   list-style: none;
   display: flex;
   align-items: flex-start;
   gap: 1rem;
 }
-
 .market-left ul li + li {
   margin-top: 1.5rem;
 }
-
 .market-left ul li span:first-child {
   width: 6px;
   height: 6px;
@@ -574,20 +542,17 @@ nav {
   background: #171c26;
   flex-shrink: 0;
 }
-
 .market-left ul li span:last-child {
   font-family: "Inter", sans-serif;
   font-size: 18px;
   line-height: 1.7;
   color: #656e81;
 }
-
 .market-right {
   background: #f6f7f8;
   padding: 3rem;
   border: 1px solid #e2e4e9;
 }
-
 .market-right h3 {
   margin-bottom: 1.5rem;
   font-family: "Playfair Display", serif;
@@ -596,12 +561,10 @@ nav {
   line-height: 1.3;
   color: #171c26;
 }
-
 .market-right ul {
   margin: 0;
   padding: 0;
 }
-
 .market-right ul li {
   list-style: none;
   font-family: "Inter", sans-serif;
@@ -609,7 +572,6 @@ nav {
   line-height: 1.7;
   color: #656e81;
 }
-
 .market-right ul li + li {
   margin-top: 1rem;
 }
@@ -678,20 +640,16 @@ nav {
     font-size: 15px;
   }
 }
-
 /* Engagement Section  */
-
 .engagement-section {
   background-color: #f6f7f8;
   padding: 7rem 0;
 }
-
 .engagement-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 32px;
 }
-
 .engagement-container h2 {
   margin-bottom: 4rem;
   text-align: center;
@@ -702,7 +660,6 @@ nav {
   letter-spacing: -0.025em;
   color: #171c26;
 }
-
 .engagement-line-box {
   display: flex;
   align-items: center;
@@ -710,7 +667,6 @@ nav {
   padding: 2rem 0;
   border-bottom: 1px solid #e2e4e9;
 }
-
 .engagement-line-box span {
   width: 40px;
   flex-shrink: 0;
@@ -720,7 +676,6 @@ nav {
   font-weight: 600;
   color: #656e81;
 }
-
 .engagement-line-box h3 {
   margin: 0;
   font-family: "Playfair Display", serif;
@@ -793,21 +748,17 @@ nav {
     line-height: 1.5;
   }
 }
-
 /* Operates Section */
-
 .operate-section {
   background-color: #192743;
   color: #ffffff;
   padding: 7rem 0;
 }
-
 .container-operate-section {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 32px;
 }
-
 .container-operate-section p {
   margin: 0;
   font-family: "Playfair Display", serif;
@@ -841,26 +792,21 @@ nav {
     line-height: 1.3;
   }
 }
-
 /* Contact section */
-
 .contact-section {
   background-color: #ffffff;
   padding: 7rem 0;
 }
-
 .contact-container {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 32px;
 }
-
 .contact-top-section {
   text-align: center;
   max-width: 700px;
   margin: 0 auto 3rem;
 }
-
 .contact-top-section h2 {
   margin-bottom: 1.5rem;
   font-family: "Playfair Display", serif;
@@ -869,35 +815,29 @@ nav {
   line-height: 1.2;
   color: #171c26;
 }
-
 .contact-top-section p {
   font-family: "Inter", sans-serif;
   font-size: 18px;
   line-height: 1.7;
   color: #656e81;
 }
-
 .contact-bottom-section {
   background: #f6f7f8;
   border: 1px solid #e2e4e9;
   padding: 3rem;
 }
-
 .form-one-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
-
 .form-one {
   display: flex;
   flex-direction: column;
 }
-
 .form-margin-top {
   margin-top: 1.5rem;
 }
-
 .form-label {
   margin-bottom: 0.5rem;
   font-family: "Inter", sans-serif;
@@ -905,7 +845,6 @@ nav {
   font-weight: 500;
   color: #171c26;
 }
-
 .form-input,
 .form-select,
 textarea {
@@ -920,24 +859,20 @@ textarea {
   transition: border-color 0.3s ease;
   box-sizing: border-box;
 }
-
 .form-input,
 .form-select {
   height: 44px;
 }
-
 textarea {
   min-height: 140px;
   resize: vertical;
 }
-
 .form-input:focus,
 .form-select:focus,
 textarea:focus {
   outline: none;
   border-color: #192743;
 }
-
 .form-main-btn {
   width: 100%;
   height: 56px;
@@ -955,16 +890,13 @@ textarea:focus {
   font-weight: 600;
   transition: background 0.3s ease;
 }
-
 .form-main-btn:hover {
   background: #223558;
 }
-
 .form-main-btn svg {
   width: 16px;
   height: 16px;
 }
-
 form p {
   margin-top: 1rem;
   text-align: center;
@@ -1051,7 +983,6 @@ form p {
   margin: 0 auto;
   padding: 0 32px;
 }
-
 .service-heading {
   font-family: "Inter Tight", sans-serif;
   color: #656e81;
@@ -1062,7 +993,6 @@ form p {
   text-transform: uppercase;
   margin-bottom: 1.5rem;
 }
-
 .service-main-heading {
   font-family: "Playfair Display", serif;
   color: #171c26;
@@ -1072,7 +1002,6 @@ form p {
   font-weight: 500;
   margin-bottom: 1.5rem;
 }
-
 .service-description {
   font-family: "Inter", sans-serif;
   color: #656e81;
@@ -1101,7 +1030,6 @@ form p {
   grid-template-columns: 5% 35% 55%;
   gap: 2rem;
 }
-
 .service-number {
   font-family: "Inter", sans-serif;
   color: #656e81;
@@ -1109,7 +1037,6 @@ form p {
   line-height: 1.25rem;
   font-weight: 500;
 }
-
 .service-title {
   font-family: "Playfair display", serif;
   color: #171c26;
@@ -1118,11 +1045,9 @@ form p {
   font-weight: 500;
   letter-spacing: -0.025em;
 }
-
 .service-information {
   padding-top: 9dvw;
 }
-
 .service-information-container {
   padding: 0 5dvw;
   display: flex;
@@ -1130,7 +1055,6 @@ form p {
   justify-content: space-between;
   gap: 3dvw;
 }
-
 .service-information-description {
   font-family: "Inter Tight", sans-serif;
   color: black;
@@ -1140,7 +1064,6 @@ form p {
   letter-spacing: -0.001dvw;
   line-height: 2dvw;
 }
-
 .service-information-description p {
   font-family: "Inter", sans-serif;
   color: #656e81;
@@ -1187,7 +1110,6 @@ form p {
   font-size: 1.125rem;
   margin-bottom: 2.5rem;
 }
-
 .explore-button {
   text-transform: uppercase;
   padding: 1rem 2.5rem;
@@ -1202,7 +1124,6 @@ form p {
 .explore-button:hover {
   background-color: #22365d;
 }
-
 /* Disclosure/////////////////////////////////////////////////////// */
 .disclosure-top-section,
 .disclosure-mid-section {
@@ -1295,7 +1216,6 @@ form p {
     padding: 0 20px;
   }
 }
-
 /* /////////////////////////////////News///////////////////////////// */
 .news-section {
   padding: 7rem 0rem;
@@ -1425,7 +1345,6 @@ form p {
   }
 }
 /* /////////////////////////// RETAIL PAGE  ///////////////////////////// */
-
 .retail-section {
   padding: 7rem 0rem;
 }
@@ -1530,7 +1449,6 @@ form p {
     margin: 1rem 0;
   }
 }
-
 /* ////////////////////////Optn Page*/
 .optin {
   width: 50vw;
@@ -1671,7 +1589,6 @@ form p {
     font-size: .95rem;
   }
 }
-
 /* Term Page  */
 .term-top-section,
 .term-mid-section {
@@ -1872,7 +1789,6 @@ form p {
 .privacy-mid-section-container a:hover {
   text-decoration: underline;
 }
-
 .privacy-bottom-section-container h2 {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -1923,7 +1839,6 @@ form p {
     padding: 0 20px;
   }
 }
-
 /* Footer */
 footer {
   background-color: #192743;
@@ -1931,51 +1846,42 @@ footer {
   font-family: "Inter Tight", sans-serif;
   font-weight: 500;
 }
-
 .footer-container {
   padding: 64px 32px;
   margin: 0px 23px;
 }
-
 .footer-top {
   display: grid;
   align-items: start;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
 }
-
 .footer-logo-container {
   grid-column: 1/3;
   display: flex;
   flex-direction: column;
   gap: 1.5dvw;
 }
-
 .footer-logo {
   font-size: 1.5rem;
   font-family: "Playfair Display", serif;
   color: #ffffff;
   margin: 0px;
 }
-
 .footer-tagline {
   font-size: 0.875rem;
   line-height: 1.5rem;
 }
-
 .footer-email {
   font-size: 0.875rem;
 }
-
 .footer-address {
   font-size: 0.875rem;
   margin-top: 1rem;
 }
-
 .footer-navigation {
   grid-column: 3/4;
 }
-
 .footer-heading {
   text-transform: uppercase;
   word-spacing: 0.1rem;
@@ -1984,7 +1890,6 @@ footer {
   font-size: 0.75rem;
   color: #ffffff;
 }
-
 .footer-links {
   list-style: none;
   display: flex;
@@ -1992,22 +1897,18 @@ footer {
   gap: 0.8rem;
   padding: 0px;
 }
-
 .footer-links li a {
   text-decoration: none;
   color: #ffffff99;
   font-size: 0.875rem;
   transition: ease-in 0.2s;
 }
-
 .footer-links li a:hover {
   color: #ffffff;
 }
-
 .footer-legal {
   grid-column: 4/5;
 }
-
 .footer-bottom {
   margin-top: 4rem;
   padding-top: 2rem;
@@ -2015,14 +1916,12 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-
 .footer-bottom p {
   font-size: 0.75rem;
   line-height: 1rem;
   margin: 0px;
   text-align: center;
 }
-
 /* footer responsive */
 @media (max-width: 768px) {
   .footer-container {
