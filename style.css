@@ -1397,7 +1397,8 @@ form p {
 .date div {
   text-transform: uppercase;
 }
-.retail-section-description p , .retail-section-description li {
+.retail-section-description p,
+.retail-section-description li {
   font-size: 1.125rem;
   line-height: 1.75rem;
   color: #656e81;
@@ -1406,11 +1407,11 @@ form p {
 .retail-section-description p + p {
   margin-top: 1.5rem;
 }
-.retail-section-description strong{
+.retail-section-description strong {
   color: #000000c2;
   margin: 1.5rem 0rem;
 }
-.retail-section-description ul{
+.retail-section-description ul {
   margin: 1.5rem 0rem;
   padding-left: 1.5rem;
 }
@@ -1432,7 +1433,7 @@ form p {
   .date {
     flex-direction: column;
     align-items: flex-start;
-    gap: .75rem;
+    gap: 0.75rem;
     padding: 1rem 0;
   }
   .retail-section-description p,
@@ -1482,18 +1483,18 @@ form p {
 .optin-contact {
   display: flex;
   flex-direction: column;
-  gap: .75rem;
+  gap: 0.75rem;
   text-align: left;
 }
 .optin-contact label {
-  font-size: .95rem;
+  font-size: 0.95rem;
   font-weight: 600;
   color: #171c26;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
 }
 .optin-contact input {
   width: 100%;
-  padding: .9rem 1rem;
+  padding: 0.9rem 1rem;
   border: 1px solid #d9d9d9;
   border-radius: 6px;
   font-size: 1rem;
@@ -1508,18 +1509,18 @@ form p {
 .optin-terms {
   display: flex;
   align-items: flex-start;
-  gap: .75rem;
+  gap: 0.75rem;
   text-align: left;
 }
 .optin-consent input,
 .optin-terms input {
-  margin-top: .25rem;
+  margin-top: 0.25rem;
   flex-shrink: 0;
 }
 .optin-consent label,
 .optin-terms label {
   color: #656e81;
-  font-size: .95rem;
+  font-size: 0.95rem;
   line-height: 1.7;
 }
 .highlight {
@@ -1535,7 +1536,7 @@ form p {
 }
 .optin-warning {
   color: #d9534f;
-  font-size: .95rem;
+  font-size: 0.95rem;
   text-align: left;
 }
 .optin-button {
@@ -1547,16 +1548,16 @@ form p {
   cursor: pointer;
   font-size: 1rem;
   font-weight: 600;
-  letter-spacing: .08em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  transition: background .3s;
+  transition: background 0.3s;
 }
 .optin-button:hover {
   background: #223558;
 }
 .optin-goback {
   color: #656e81;
-  font-size: .95rem;
+  font-size: 0.95rem;
   text-decoration: none;
 }
 .optin-goback:hover {
@@ -1564,7 +1565,6 @@ form p {
 }
 /* Responsive Optin section */
 @media (max-width: 768px) {
-
   .optin {
     width: calc(100% - 40px);
     padding: 3rem 1.5rem;
@@ -1582,11 +1582,11 @@ form p {
   .optin-terms label,
   .optin-warning,
   .optin-goback {
-    font-size: .95rem;
+    font-size: 0.95rem;
   }
 
   .optin-button {
-    font-size: .95rem;
+    font-size: 0.95rem;
   }
 }
 /* Term Page  */
@@ -1840,6 +1840,66 @@ form p {
   }
 }
 /* Trug page */
+.trughero-section {
+  padding: 7rem 0rem;
+  background-color: #fbfbfc;
+}
+.trughero-section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.trughero-content {
+  text-align: center;
+}
+.trughero-content span {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-family: "Inter", system-ui, sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+.trughero-content h1 {
+  font-size: 3.75rem;
+  line-height: 1;
+  color: #171c26;
+  font-weight: 500;
+  font-family: "Playfair Display", sans-serif;
+  margin-bottom: 1.5rem;
+}
+.trughero-content p:nth-child(3) {
+  font-size: 1.5rem;
+  line-height:2rem;
+  color:#656e81;
+  font-family: "Playfair Display", sans-serif;
+  margin-bottom: 2rem;
+}
+.trughero-content p{
+  color: #656e81;
+  line-height: 1.625;
+  font-size: 1.125rem;
+  font-family: "Inter", system-ui, sans-serif;
+}
+/* Responsive Trug Page */
+@media (max-width: 768px) {
+  .trughero-section {
+    padding: 4rem 0;
+  }
+  .trughero-content h1 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  .trughero-content p:nth-child(3) {
+    font-size:1.25rem;
+    line-height:1.75rem;
+  }
+  .trughero-content p {
+    line-height: 1.5rem;
+  }
+  
+}
 
 /* Footer */
 footer {
