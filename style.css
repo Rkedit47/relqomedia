@@ -1987,12 +1987,18 @@ blockquote p {
   padding: 2.5rem;
   background-color: #f9f9fa;
 }
+.trugroadmap-section-card .trugroadmap-section-card-body + .trugroadmap-section-card-body{
+  margin-top: 2rem;
+}
 .trugroadmap-section-card-body {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
   gap: 1.5rem;
   margin-bottom: 1.5rem;
+}
+.trugroadmap-section-card-body-right-span{
+  margin-bottom: 1rem;
 }
 .trugroadmap-section-card-body-right-span span {
   color: #ffffff;
@@ -2001,13 +2007,37 @@ blockquote p {
   line-height: 1rem;
   font-family: Inter, system-ui, sans-serif;
   padding: 0.25rem 0.75rem;
-  margin-bottom: 1rem;
 }
 .trugroadmap-section-card-body-right-span span:nth-child(1){
   background-color: #192743; 
 }
 .trugroadmap-section-card-body-right-span span:nth-child(2){
   color: #656e81; 
+}
+.trugroadmap-section-card-body-right h3{
+  font-size: 1.5rem;
+        line-height: 2rem;
+  color: #171c26;
+  font-weight: 500;
+  font-family: "Playfair Display", sans-serif;
+  margin-bottom: 1rem;
+}
+.trugroadmap-section-card-body-right ul{
+  margin-bottom: 1.5rem;
+  list-style: none;
+}
+.trugroadmap-section-card-body-right ul li{
+  color:#656e81;
+  font-size: 1rem;
+  font-family: "Inter", system-ui, sans-serif;
+  margin-left: 0.8rem;
+  margin-top: 0.5rem;
+}
+.trugroadmap-section-card-body-right p{
+  color: #171c26;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "Inter", system-ui, sans-serif;
 }
 /* Responsive Trug Page */
 @media (max-width: 768px) {
