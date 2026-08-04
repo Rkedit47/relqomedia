@@ -1840,6 +1840,7 @@ form p {
   }
 }
 /* Trug page */
+/* Trug Hero Section */
 .trughero-section {
   padding: 7rem 0rem;
   background-color: #fbfbfc;
@@ -1871,20 +1872,148 @@ form p {
 }
 .trughero-content p:nth-child(3) {
   font-size: 1.5rem;
-  line-height:2rem;
-  color:#656e81;
+  line-height: 2rem;
+  color: #656e81;
   font-family: "Playfair Display", sans-serif;
   margin-bottom: 2rem;
 }
-.trughero-content p{
+.trughero-content p {
   color: #656e81;
   line-height: 1.625;
   font-size: 1.125rem;
   font-family: "Inter", system-ui, sans-serif;
 }
+/* Trug Company section */
+.trugcompany-section {
+  padding: 7rem 0rem;
+  background-color: #ffffff;
+}
+.trugcompany-section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.trugcompany-section-container h2 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  color: #171c26;
+  font-weight: 500;
+  text-align: center;
+  font-family: "Playfair Display", sans-serif;
+  margin-bottom: 2rem;
+}
+.trugcompany-content {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+.trugcompany-content div p {
+  color: #656e81;
+  line-height: 1.625;
+  font-size: 1.125rem;
+  font-family: "Inter", system-ui, sans-serif;
+  margin-bottom: 1.5rem;
+}
+.trugcompany-content div ul li {
+  color: #656e81;
+  line-height: 1.625;
+  font-size: 1.125rem;
+  font-family: "Inter", system-ui, sans-serif;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+}
+blockquote {
+  background-color: #f3f4f64d;
+  padding: 1rem 0rem 1rem 1.5rem;
+  border-left: 4px solid #192743;
+}
+blockquote p {
+  color: #192743;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  font-family: "Playfair Display", system-ui, sans-serif;
+  font-style: italic;
+}
+/* TrugWhat Section */
+.trugwhat-section {
+  padding: 7rem 0rem;
+  background-color: #fbfbfc;
+}
+.trugwhat-section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.trugwhat-section-container h2 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  color: #171c26;
+  font-weight: 500;
+  text-align: center;
+  font-family: "Playfair Display", sans-serif;
+  margin-bottom: 2rem;
+}
+.trugwhat-content p {
+  color: #656e81;
+  line-height: 1.625;
+  font-size: 1.125rem;
+  font-family: "Inter", system-ui, sans-serif;
+  margin-bottom: 1.5rem;
+}
+/* Trug Roadmap Section */
+.trugroadmap-section {
+  padding: 7rem 0rem;
+  background-color: #ffffff;
+}
+.trugroadmap-section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.trugroadmap-section-top {
+  margin-bottom: 4rem;
+}
+.trugroadmap-section-top h2 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  color: #171c26;
+  font-weight: 500;
+  text-align: center;
+  font-family: "Playfair Display", sans-serif;
+  margin-bottom: 1.5rem;
+}
+.trugroadmap-section-card {
+  padding: 2.5rem;
+  background-color: #f9f9fa;
+}
+.trugroadmap-section-card-body {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.trugroadmap-section-card-body-right-span span {
+  color: #ffffff;
+  letter-spacing: 0.05rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-family: Inter, system-ui, sans-serif;
+  padding: 0.25rem 0.75rem;
+  margin-bottom: 1rem;
+}
+.trugroadmap-section-card-body-right-span span:nth-child(1){
+  background-color: #192743; 
+}
+.trugroadmap-section-card-body-right-span span:nth-child(2){
+  color: #656e81; 
+}
 /* Responsive Trug Page */
 @media (max-width: 768px) {
-  .trughero-section {
+  .trughero-section,
+  .trugcompany-section,
+  .trugwhat-section {
     padding: 4rem 0;
   }
   .trughero-content h1 {
@@ -1892,13 +2021,38 @@ form p {
     line-height: 2.5rem;
   }
   .trughero-content p:nth-child(3) {
-    font-size:1.25rem;
-    line-height:1.75rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
   .trughero-content p {
     line-height: 1.5rem;
   }
-  
+  /* TrugCompany */
+  .trugcompany-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .trugcompany-section-container h2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  .trugcompany-content div ul li {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  blockquote p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  /* TrugWhat */
+  .trugwhat-section-container h2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  .trugcompany-content p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 /* Footer */
