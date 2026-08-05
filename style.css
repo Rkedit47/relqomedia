@@ -2340,7 +2340,7 @@ blockquote p {
   margin-bottom: 1.5rem;
 }
 
-.trugroadmap-section-card-body-right-span ,
+.trugroadmap-section-card-body-right-span 
 .trugroadmap-section-card-body-left svg{
   background-color: #1927431a;
   width: 3.5rem;
@@ -2418,8 +2418,6 @@ blockquote p {
   font-family: "Playfair Display", sans-serif;
   font-weight: 500;
   color: #171c26;
-
-
 }
 
 .clicks-head p {
@@ -2442,7 +2440,7 @@ blockquote p {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 1.4dvw;
+  padding: 1.9dvw 1.4dvw;
   gap: .7dvw;
   border: .1dvw solid rgb(233, 231, 231);
 }
@@ -2517,11 +2515,210 @@ blockquote p {
   font-family: "playfair display", system-ui , sans-serif;
   color: #222222;
   padding: 1.7dvw;
-  background-color:#edeef0 ;
+  background-color:#f4f6f8 ;
   line-height: 2vw;
 }
+.important h2 .boldy-spot{
+  font-weight: 500;
+}
+
+/* ////////////////INVESTOR INVESTMENT////////////// */
+.awareness{
+  display: flex;
+  flex-direction: column;
+  gap: 1.8dvw;
+  text-align: center;
+  align-items: center;
+  background-color: #192743;
+  padding:8dvw 0;
+  color: white;
+
+}
+.awareness h1{
+  font-family: "Playfair Display", system-ui, sans-serif;
+  font-size: 2.6dvw;
+  font-weight: 700;
+}
+.awareness p{
+  padding:0 23dvw;
+  font-size: 1.4dvw;
+  font-family: "inter", system-ui, sans-serif;
+  line-height: 2.5dvw;
+}
+
+.awareness button{
+  width: 18dvw;
+  padding: 1.1dvw;
+  border: .1dvw solid white;
+  background-color: #192743;
+  color: white;
+  border-radius: .3dvw;
+  font-size: 1.05dvw;
+  font-weight: 500;
+  font-family: "inter", system-ui, sans-serif;
+
+}
+@media(max-width:786px){
+  .clicks-head{
+    gap: 2dvw;
+  }
+  .clicks-head h1{
+    font-size: 4.5dvw;
+  }
+
+  .clicks-head p {
+  font-size: 2.3dvw;
+    padding: 0 6dvw;
+  letter-spacing: 0dvw;
+  line-height: 3.6dvw;
+  color: #656e81;
+}
+.clicks-cards{
+  flex-wrap: wrap;
+  padding: 1dvw;
+  gap: 2dvw;
+}
+.clicks-cards .clicks-card{
+  width: 46dvw;
+  padding: 5dvw;
+  gap: 1.5dvw;
+}
+.clicks-card .card-img{
+  width: 6dvw;
+  height: 6dvw;
+}
+.clicks-card h1{
+  font-size: 2.3dvw;
+}
+.clicks-card p{
+  font-size: 1.85dvw;
+}
+/* /////////////////COMPANY GAINS///////////////////// */
+.gains{
+  padding: 12dvw 0;
+  gap: 5dvw;
+}
+.gains .gains-list{
+  gap: 2.3dvw;
+}
+.gains h1{
+  font-size: 4.5dvw;
+}
+.gains-list .box{
+  padding-left: 3dvw;
+  gap: 2dvw;
+}
+.gains-list .box svg{
+  width: 2.6dvw;
+}
+.gains-list .box p{
+  font-size: 2.4dvw;
+
+}
+/* //////////MOST IMPORTANTLY////////// */
+.important{
+  padding:0 3dvw ;
+}
+.important h2{
+  font-size: 2.5dvw;
+  font-weight: 400;
+  line-height: 3.5dvw;
+}
+
+/* //////////////////////////AWARENESS /////////////////// */
+.awareness{
+  gap: 3dvw;
+  padding:8dvw 0;
+
+}
+.awareness h1{
+  font-size: 4.3dvw;
+}
+.awareness p{
+  padding:0 3dvw;
+  font-size: 2.4dvw;
+  line-height: 4dvw;
+}
+.awareness button{
+  width: 31dvw;
+  font-size: 1.8dvw;
+  font-size: 900;
+  padding: 2dvw;
+  border-radius:.6dvw;
+}
+
+}
+
+@media(max-width:546px){
 
 
+    .clicks-head h1{
+    font-size: 5.3dvw;
+    font-weight: 600;
+  }
+    .clicks-head p{
+      font-size: 3.3dvw;
+      line-height: 5dvw;
+    }
+    .clicks-cards{
+      padding:0 4dvw;
+    }
+    .clicks-cards .clicks-card{
+      gap: 3dvw;
+      width: 100%;
+    }
+    .clicks-card .card-img{
+      width: 8dvw;
+      height: 8dvw;
+    }
+    .clicks-card h1{
+      font-size: 3.3dvw;
+    }
+    .clicks-card p{
+  font-size: 2.5dvw;
+}
+
+.gains h1{
+  font-size: 5.7dvw;
+}
+.gains-list .box{
+  padding-left: 4dvw;
+}
+.gains-list .box svg{
+  width: 3.7dvw;
+}
+.gains-list .box p{
+  font-size: 3.4dvw;
+
+}
+.important{
+  padding:0 4dvw ;
+}
+.important h2{
+  font-size: 3.7dvw;
+  line-height: 5dvw;
+  padding: 3.3dvw;
+}
+
+/* //////////////AWARNESS/////////// */
+.awareness{
+  padding:12dvw 0 ;
+  gap: 6dvw;
+}
+.awareness h1{
+  font-size: 5dvw;
+}
+.awareness p{
+  font-size: 3.5dvw;
+  padding: 0 2dvw;
+  line-height: 5.5dvw;
+}
+.awareness button{
+  width: 45dvw;
+  font-size: 2.5dvw;
+  padding: 2.8dvw;
+}
+}
 
 
 
