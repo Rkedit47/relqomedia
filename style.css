@@ -2373,14 +2373,13 @@ blockquote p {
 
 .trugroadmap-section-card-body-right ul {
   margin-bottom: 1.5rem;
-  list-style: none;
 }
 
 .trugroadmap-section-card-body-right ul li {
   color: #656e81;
   font-size: 1rem;
   font-family: "Inter", system-ui, sans-serif;
-  margin-left: 0.8rem;
+  margin-left: 1rem;
   margin-top: 0.5rem;
 }
 
